@@ -1,6 +1,8 @@
 
 .welcome {
-    background-image: linear-gradient(#315450, #337770);
+    background-image: url("https://media.giphy.com/media/g8cIiJwMz0Tn0sa1UT/giphy.gif");
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 70%;
     display: flex;
@@ -14,7 +16,7 @@
 }
 
 .wrapper p {
-    color: #ababab;
+    color: #f0cece;
     margin-top: 15px;
     margin-left: 15px;
     margin-bottom: 20px;
