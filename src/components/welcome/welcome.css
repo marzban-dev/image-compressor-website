@@ -4,23 +4,22 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
-    width: 80%;
     display: flex;
     align-items: center;
     justify-items: start;
 }
 
-.wrapper {
+.titles {
     margin-left: 10vh;
     margin-right: 30vh;
 }
 
-.wrapper p {
+.titles p {
     color: #cccccc;
     margin: 15px 0 20px 15px;
 }
 
-.wrapper .button {
+.titles .button {
     margin-left: 15px;
     border: solid 1px;
     border-color: rgba(255, 255, 255, 0.15);
@@ -42,6 +41,6 @@
     white-space: nowrap;
 }
 
-.wrapper .button:hover {
+.titles .button:hover {
     border-color: rgba(255, 255, 255, 1) !important;
 }

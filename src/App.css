@@ -3,4 +3,6 @@
     display: flex;
 
 }
-
+.wrapper{
+    width: 80%;
+}

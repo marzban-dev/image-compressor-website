@@ -7,7 +7,7 @@ function Sidebar() {
     const renderItems = () => {
         return items.map((item) => {
             return (
-                <a href={""}>
+                <a href={item}>
                     <span>{item}</span>
                     <div />
                 </a>

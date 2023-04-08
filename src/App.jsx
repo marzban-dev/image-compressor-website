@@ -3,13 +3,15 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Sidebar from './components/side-navigation/sidebar.jsx'
-import Welcome from './components/body/welcome.jsx'
+import Welcome from './components/welcome/welcome.jsx'
 
 function App() {
     return (
         <div className="App">
             <Sidebar/>
-            <Welcome/>
+            <div className={"wrapper"}>
+                <Welcome/>
+            </div>
         </div>
     )
 }
