@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
-    width: 70%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-items: start;
@@ -15,20 +15,15 @@
     margin-right: 30vh;
 }
 
-.wrapper h1 {
-    /* text-shadow: 1px 1px 20px black; */
-}
-
 .wrapper p {
-    color: #f0cece;
+    color: #cccccc;
     margin: 15px 0 20px 15px;
-    /* text-shadow: 1px 1px 2px black; */
 }
 
 .wrapper .button {
     margin-left: 15px;
-    border: solid 1px !important;
-    border-color: rgba(255, 255, 255, 0.15) !important;
+    border: solid 1px;
+    border-color: rgba(255, 255, 255, 0.15);
     border-radius: 3em;
     color: #ffffff !important;
     cursor: pointer;
@@ -37,7 +32,7 @@
     font-weight: bold;
     height: calc(4.75em + 2px);
     letter-spacing: 0.25em;
-    line-height: 4.75em;
+    line-height: 4em;
     outline: 0;
     padding: 0 3.75em;
     position: relative;

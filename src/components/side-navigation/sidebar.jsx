@@ -7,10 +7,10 @@ function Sidebar() {
     const renderItems = () => {
         return items.map((item) => {
             return (
-                <li>
+                <a href={""}>
                     <span>{item}</span>
                     <div />
-                </li>
+                </a>
             );
         });
     };
