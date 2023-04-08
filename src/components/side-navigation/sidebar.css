@@ -1,5 +1,5 @@
 .sidebar {
-    background: linear-gradient(152deg, rgba(2, 0, 35, 1) 12%, rgba(164, 52, 71, 1) 100%);
+    background: rgba(2, 0, 35, 1) ;
     width: 20%;
     height: 100vh;
     display: flex;
