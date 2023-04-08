@@ -5,6 +5,8 @@ import './App.css'
 import Sidebar from './components/side-navigation/sidebar.jsx'
 import Welcome from './components/welcome/welcome.jsx'
 import About from "./components/about/about.jsx";
+import Features from "./components/features/features.jsx";
+import Download from "./components/download/download.jsx";
 
 function App() {
     return (
@@ -12,6 +14,8 @@ function App() {
             <div className={"wrapper"}>
                 <Welcome/>
                 <About/>
+                <Features />
+                <Download />
             </div>
             <Sidebar/>
         </div>

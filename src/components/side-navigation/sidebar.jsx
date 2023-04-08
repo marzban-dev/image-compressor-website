@@ -7,7 +7,7 @@ function Sidebar() {
     const renderItems = () => {
         return items.map((item) => {
             return (
-                <a href={item}>
+                <a href={`#${item.toLowerCase()}`}>
                     <span>{item}</span>
                     <div />
                 </a>

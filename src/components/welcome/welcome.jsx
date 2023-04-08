@@ -3,7 +3,7 @@ import "./welcome.css";
 
 export default function Welcome() {
     return (
-        <div className={"welcome"}>
+        <div id={"welcome"}>
             <div className={"titles"}>
                 <h1>Image Compressor</h1>
                 <p>
