@@ -1,7 +1,7 @@
 .sidebar {
-    background: rgb(2,0,35);
-    background: linear-gradient(152deg, rgba(2,0,35,1) 12%, rgba(164,52,71,1) 100%);
+    background: linear-gradient(152deg, rgba(2, 0, 35, 1) 12%, rgba(164, 52, 71, 1) 100%);
     width: 20%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -10,6 +10,8 @@
     letter-spacing: 0.35em;
     line-height: 4em;
     font-size: 0.7em;
+    position: fixed;
+
 }
 
 .sidebar a {

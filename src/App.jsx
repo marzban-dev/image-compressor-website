@@ -4,15 +4,19 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Sidebar from './components/side-navigation/sidebar.jsx'
 import Welcome from './components/welcome/welcome.jsx'
+import About from "./components/about/about.jsx";
 
 function App() {
     return (
         <div className="App">
-            <Sidebar/>
             <div className={"wrapper"}>
                 <Welcome/>
+                <About/>
             </div>
+            <Sidebar/>
         </div>
+
+
     )
 }
 
