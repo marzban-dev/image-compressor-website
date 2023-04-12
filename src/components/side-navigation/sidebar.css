@@ -1,0 +1,32 @@
+.sidebar {
+    background: rgba(2, 0, 35, 1) ;
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    text-align: right;
+    letter-spacing: 0.35em;
+    line-height: 4em;
+    font-size: 0.7em;
+    position: fixed;
+
+}
+
+.sidebar a {
+    margin-right: 40px;
+    margin-bottom: 20px;
+    display: block;
+    width: 30vh;
+    text-decoration: none;
+
+}
+
+.sidebar a span {
+}
+
+.sidebar a div {
+    height: 1px;
+    background: linear-gradient(152deg, rgba(78, 75, 121, 1) 0%, rgba(255, 163, 179, 1) 100%);
+}

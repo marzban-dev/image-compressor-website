@@ -1,0 +1,67 @@
+#download{
+    height: 100vh;
+    padding-left: 50vh;
+    background: linear-gradient(152deg, rgba(112,37,50,1) 0%, rgba(59,0,10,1) 100%);
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: rgba(2, 0, 35, 1);
+    border-radius: 10px;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 3rem;
+
+}
+
+.btn:hover {
+    background-color: rgba(2, 0, 35, 0.7);
+}
+.install p{
+    margin-top: 1rem;
+    color: rgb(255,255,255, 0.35);
+    font-weight: normal;
+    line-height: 2.2em;
+}
+.profile{
+    list-style: none;
+    border-left: 1px solid white;
+    padding-left: 50px;
+    margin-left: 50%;
+    width: 300px;
+}
+
+.profile img{
+    width: 200px;
+    border-radius: 50%;
+}
+.profile h1{
+    margin-top: 20px;
+
+}
+.profile p{
+    line-height: 2.2em;
+    color: rgb(255,255,255, 0.35);
+    font-weight: normal;
+}
+.profile a{
+    text-decoration: none;
+}
+.profile .icon{
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
+.icon li{
+    display: inline-block;
+    padding: 0 0.75em 0 0;
+    text-decoration: none;
+
+}
+.profile .label{
+    display: none;
+}

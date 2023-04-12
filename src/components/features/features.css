@@ -1,0 +1,20 @@
+#features{
+    height: 100vh;
+    background: linear-gradient(152deg, rgba(60,112,37,1) 0%, rgba(0,59,8,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-items: start;
+    padding-left: 50vh;
+}
+#features section{
+    border: 3px solid rgb(255,255,255, 0.25);
+}
+.tables div{
+    display: flex;
+    align-items: center;
+    justify-items: start;
+}
+.tables section{
+    width: 30vw;
+    height: 20vh;
+}

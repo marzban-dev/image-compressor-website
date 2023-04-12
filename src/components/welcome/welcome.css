@@ -1,0 +1,48 @@
+#welcome {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0.3) 100%),
+    url("https://media.giphy.com/media/g8cIiJwMz0Tn0sa1UT/giphy.gif");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-items: start;
+    padding-left: 30vh;
+
+}
+
+.titles {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.titles p {
+    color: #cccccc;
+    margin: 15px 0 20px 15px;
+}
+
+.titles .button {
+    margin-left: 15px;
+    border: solid 1px;
+    border-color: rgba(255, 255, 255, 0.15);
+    border-radius: 3em;
+    color: #ffffff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.6em;
+    font-weight: bold;
+    height: calc(4.75em + 2px);
+    letter-spacing: 0.25em;
+    line-height: 4em;
+    outline: 0;
+    padding: 0 3.75em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.titles .button:hover {
+    border-color: rgba(255, 255, 255, 1) !important;
+}
