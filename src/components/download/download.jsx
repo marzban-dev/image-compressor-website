@@ -1,4 +1,6 @@
 import React from "react";
+import { FaGithub, FaDiscord, FaInstagram  } from "react-icons/fa";
+
 import './download.css'
 
 export default function Download() {
@@ -32,25 +34,13 @@ export default function Download() {
                     <h1>Email</h1>
                     <a href="mailto:"><p>Mansouremail@gmail.com</p></a>
                     <h1>Socials</h1>
-                    <ul className={"icons"}>
-                        <li>
-                            <a href="https://github.com/rocksdanister" className={"icon brands fa-github"}><span
-                                className={"label"}>GitHub</span></a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/channel/UClep84ofxC41H8-R9UfNPSQ"
-                               className={"icon brands fa-youtube"}><span className={"label"}>Twitter</span></a>
-                        </li>
-                        <li>
-                            <a href="https://www.reddit.com/r/LivelyWallpaper/"
-                               className={"icon brands fa-reddit"}><span
-                                className={"label"}>Reddit</span></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/rocksdanister" className={"icon brands fa-twitter"}><span
-                                className={"label"}>Twitter</span></a>
-                        </li>
-                    </ul>
+
+                    <div className={"icons"}>
+                        <a href={"https://github.com/marzban-dev"}><FaGithub fill={'grey'} size={20} /></a>
+                        <a href={""}><FaDiscord color={'blue'} size={20} fill={'grey'}/></a>
+                        <a href={"https://www.instagram.com/_.mansour_mrz._/"}><FaInstagram fill={'grey'} size={20}/></a>
+
+                    </div>
                 </div>
             </section>
         </div>
